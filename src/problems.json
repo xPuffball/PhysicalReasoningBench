@@ -1,0 +1,195 @@
+{
+    "FLUID_001": {
+        "problem_id": "FLUID_001",
+        "setup": {
+            "scenario": "A ping pong ball is at the bottom of a narrow tube (15cm long). The tube is too narrow to reach inside with fingers.",
+            "available_items": [
+                "bottle of water",
+                "squishy food models",
+                "milk carton",
+                "ice cube"
+            ],
+            "constraints": [
+                "tube too narrow for manual retrieval",
+                "tube is transparent",
+                "tube is fixed to the surface"
+            ]
+        },
+        "physical_principles": [
+            "buoyancy",
+            "fluid displacement",
+            "density differences"
+        ],
+        "red_herrings": [
+            "squishy food models",
+            "milk carton",
+            "ice cube"
+        ],
+        "solution": {
+            "steps": [
+                "identify that water can be used to fill the tube",
+                "pour water into tube carefully",
+                "allow ball to float to surface",
+                "retrieve ball from top of tube"
+            ],
+            "key_insights": [
+                "water displaces air in tube",
+                "ping pong ball is less dense than water",
+                "buoyant force will lift the ball",
+                "other items are irrelevant to solution"
+            ]
+        }
+    },
+    "UV_001": {
+        "problem_id": "UV_001",
+        "setup": {
+            "scenario": "A door is locked with a push-button number lock. The correct combination needs to be entered, but the order of numbers doesn't matter.",
+            "available_items": [
+                "UV light",
+                "lab equipment (beakers, test tubes, etc.)",
+                "safety goggles"
+            ],
+            "constraints": [
+                "lock requires all correct digits to be pressed",
+                "order of input doesn't matter",
+                "room is well-lit"
+            ]
+        },
+        "physical_principles": [
+            "UV fluorescence",
+            "fingerprint residue detection",
+            "light properties"
+        ],
+        "red_herrings": [
+            "lab equipment",
+            "safety goggles"
+        ],
+        "solution": {
+            "steps": [
+                "turn off or dim room lights",
+                "activate UV light",
+                "shine UV light on number pad",
+                "identify buttons with fingerprint residue",
+                "press all identified buttons"
+            ],
+            "key_insights": [
+                "fingerprints contain oils that fluoresce under UV",
+                "frequently pressed buttons will show more residue",
+                "lab equipment is irrelevant to solution"
+            ]
+        }
+    },
+    "CIPHER_001": {
+        "problem_id": "CIPHER_001",
+        "setup": {
+            "scenario": "Jumbled letters are written on a wall. 'A=N' is written separately. There is a dual-ring dial mechanism mounted nearby.",
+            "available_items": [
+                "dual-ring dial with letters",
+                "jumbled message on wall",
+                "A=N reference"
+            ],
+            "constraints": [
+                "dial rings can rotate independently",
+                "letters are clearly visible",
+                "rings align perfectly when rotated"
+            ]
+        },
+        "physical_principles": [
+            "mechanical alignment",
+            "rotational symmetry",
+            "pattern matching"
+        ],
+        "red_herrings": [],
+        "solution": {
+            "steps": [
+                "recognize Caesar cipher relationship from A=N",
+                "align A with N on the dual rings",
+                "use alignment to decode remaining letters",
+                "read decoded message"
+            ],
+            "key_insights": [
+                "A=N indicates 13-letter shift (ROT13)",
+                "dual rings create decoder mechanism",
+                "alignment creates consistent letter mapping"
+            ]
+        }
+    },
+    "VAC_001": {
+        "problem_id": "VAC_001",
+        "setup": {
+            "scenario": "A can is stuck in a hole that almost exactly matches its volume. A combination is written on the bottom of the can that needs to be retrieved.",
+            "available_items": [
+                "ruler",
+                "notebook",
+                "suction cup",
+                "UV light"
+            ],
+            "constraints": [
+                "can fits too tightly for finger grip",
+                "hole is same diameter as can",
+                "can is clean and dry"
+            ]
+        },
+        "physical_principles": [
+            "vacuum suction",
+            "surface adhesion",
+            "force multiplication"
+        ],
+        "red_herrings": [
+            "ruler",
+            "notebook",
+            "UV light"
+        ],
+        "solution": {
+            "steps": [
+                "inspect suction cup and can surface",
+                "ensure can surface is clean",
+                "firmly press suction cup onto can top",
+                "create vacuum seal",
+                "pull can out using suction cup"
+            ],
+            "key_insights": [
+                "suction cup creates vacuum seal",
+                "vacuum force allows extraction",
+                "other items don't provide necessary force"
+            ]
+        }
+    },
+    "COLLAB_001": {
+        "problem_id": "COLLAB_001",
+        "setup": {
+            "scenario": "Two prison cells are 1.5 meters apart with 15cm-wide bars. A key lies on the floor between them. Teams are in separate cells.",
+            "available_items": [
+                "roll of toilet paper",
+                "paper sheets",
+                "key on floor"
+            ],
+            "constraints": [
+                "cells are 1.5m apart",
+                "bars are 15cm wide",
+                "key is equidistant from both cells"
+            ]
+        },
+        "physical_principles": [
+            "friction",
+            "tension",
+            "tool creation",
+            "collaborative mechanics"
+        ],
+        "red_herrings": [],
+        "solution": {
+            "steps": [
+                "create paper strips from available materials",
+                "connect strips to form long chain",
+                "pass chain through both cell bars",
+                "coordinate between cells to position chain",
+                "use chain to drag key to one cell"
+            ],
+            "key_insights": [
+                "paper chain provides necessary length",
+                "coordination allows controlled movement",
+                "friction allows key dragging"
+            ]
+        }
+    }
+}
